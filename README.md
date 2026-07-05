@@ -5,23 +5,20 @@ This repository contains the database schema implementations and backend statist
 
 ---
 
-## My Contributions and Scope
+## Team and Contributions
 
-As a core developer of this project, my responsibilities focused on the database schema engineering and the implementation of administrative data visualization and statistical reporting modules.
+This project was a collaborative effort developed by a **5-member project team**. Within this team, my specific contributions were focused on the backend statistical architecture and fundamental relational database design:
 
-### 1. Database Engineering (SQL)
-Designed, created, and optimized the structural definitions and relationships for the core appointment workflow:
-* **`appointmentrecord` Table:** Implemented the table structure and constraints to log completed, canceled, and ongoing counseling records.
-* **`appointmentapply` Table:** Implemented the application tracking system handling initial student requests and metadata.
-* **Schema Evolution:** Managed database migration and relations using `ALTER TABLE` statements to ensure data integrity and foreign key constraints.
+* **My Core Responsibilities:**
+  * **Database Schema Design:** Engineered the core database tables (`appointmentrecord` and `appointmentapply`), defining primary/foreign key relationships and applying structural adjustments via `ALTER TABLE`.
+  * **Analytical Backend Modules:** Developed statistical reporting scripts (`workload.php`, `stat_top_consultant.php`, `stat_completion.php`) to aggregate and analyze counseling data.
+  * **Administrative Management System:** Built the `admin_record.php` interface allowing system administrators to search, track, and audit historical appointment logs.
 
-### 2. Backend & Analytical Modules (PHP)
-Developed the administrative interface and analytical backend to convert raw database records into actionable insights for campus administrators:
-* `workload.php`: Analyzes and tracks the workload metrics of individual counselors over specific time frames.
-* `stat_top_consultant.php`: Aggregates booking data to identify and report the most requested counselors and peak reservation periods.
-* `stat_completion.php`: Computes completion, cancellation, and no-show rates across counseling sessions for service optimization.
-* `admin_record.php`: The administrative portal for managing, searching, and auditing historical counseling logs and applications.
-
+* **Other Team Components (Developed by 4 other members):**
+  * Frontend UI/UX styling and layout responsive frameworks.
+  * Student reservation dashboard interfaces and feedback questionnaire systems.
+  * Microsoft Access desktop application prototyping and peripheral data query forms.
+  
 ---
 
 ## Repository Structure
